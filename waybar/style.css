@@ -75,7 +75,9 @@ border-radius: 1rem;
 #custom-lock,
 #custom-power,
 #custom-fileManager,
-#custom-WallPaper{
+#custom-WallPaper,
+#custom-NsfwWallPaper,
+#custom-ResetWallPaper{
 background-color: @surface0;
 padding: 0.5rem 1rem;
 margin: 5px 0;
@@ -86,16 +88,23 @@ margin: 5px 0;
   border-radius: 1rem 0rem 0rem 1rem;
 }
 
-#custom-WallPaper{
+#custom-NsfwWallPaper,
+#custom-ResetWallPaper{
+  font-size:32px;
+}
+
+#custom-ResetWallPaper{
   border-radius:0px 1rem 1rem 0px;
 }
 
 
+
 #custom-launcher{
   font-size:17px;
-  background-image: url('/home/susamogus/Pictures/archlinux.svg');
-  background-size:110px;
-  background-position: right;
+  background-image: url('/home/susamogus/Pictures/Screenshots/Screenshots/Screenshot_2024-05-14-14-16-01-71_94c3c0214f41e8559bec03caf75c21c7.jpg');
+  border-radius:10px;
+  background-size:50px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
