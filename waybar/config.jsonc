@@ -5,7 +5,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/launcher","hyprland/workspaces","custom/fileManager","custom/NsfwWallPaper", "custom/WallPaper" , "custom/ResetWallPaper"],
     "modules-center": ["custom/musicdisplay"],
-    "modules-right": ["tray", "pulseaudio", "clock", "custom/lock", "custom/power"],
+    "modules-right": ["tray", "pulseaudio", "clock", "custom/bluetooth", "custom/lock", "custom/power"],
     "custom/fileManager":{
       "format":"",
       "tooltip":true,
@@ -31,9 +31,9 @@
       "on-click":"exec ~/.config/waybar/nsfw_wallpapers.zsh"
     },
     "custom/launcher":{
-      "format":"       ",
+      "format":"",
       "tooltip":true,
-      "tooltip-format":"I USE ARCH BTW",
+      "tooltip-format":"Launch app",
       "on-click":"rofi -show drun"
     },
     "hyprland/workspaces": {
@@ -93,6 +93,12 @@
             "default": ["", "", " "]
         },
         "on-click": "pavucontrol"
+    },
+    "custom/bluetooth":{
+      "tooltip":true,
+      "tooltip-format":"Launches bluetooh manager stuff",
+      "on-click":"exec overskride",
+      "format": ""
     },
     "custom/lock": {
         "tooltip": true,
